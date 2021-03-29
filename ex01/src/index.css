@@ -1,0 +1,125 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+/*  background-color: rgb(6, 108, 241); */
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*
+textarea {
+  top: 20px;
+  width: 1100px; 
+  height: 350px;
+  background-color: rgb(239, 243, 250);
+  border-style: solid;
+  border-color: rgb(186, 195, 248);
+  border-width: medium; 
+  color: rgb(134, 150, 241);
+}
+*/
+
+textarea { 
+  top: 0px;
+  background-color: rgb(239, 243, 250);
+  border-style: solid;
+  border-color: rgb(186, 195, 248);
+  border-width: medium;
+  color: rgb(134, 150, 241);
+  font-size: 15px;
+}
+
+#placeholder text {
+  color: rgb(134, 150, 241);
+}
+
+.keyboard {
+ background-color: rgb(236, 20, 13); 
+  position: relative; /* relative*/
+  /* left: 0px;
+  right: 0px;
+  bottom: 0px; */
+  width: 1200px;
+  padding: 3px 1px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  top: 5px;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  
+}
+
+.keyboard_keys {
+  text-align: start;
+  /* display: flex; */
+  /*flex-direction: row; */
+  /*  justify-content: start ; */
+  /*display: grid; */
+  /*  grid-template-columns: repeat(10, 1fr); */
+  /*  align-items: center;
+ /* justify-content: center; */
+  /* grid-template-columns: repeat(11, 120px); */
+  display: flex; 
+ /* flex-wrap: nowrap; */
+  flex-wrap: wrap;
+}
+
+.key {
+  height: 100px;
+  width: 100px;
+  border-color: rgb(46, 46, 45);
+  /* display: flex; */
+  padding: 1px;
+  border-right-color: rgb(70, 69, 68);
+  color: #ffffff;
+  cursor: pointer;
+  vertical-align: top;
+  padding: 5px;
+  border-width: 1px;
+  /* justify-content: center;
+  align-items: center; */
+  background-color: black;
+  border-radius: 1px;
+  font-size: 30px;
+
+  /* 
+  border-top-style: inset;
+  border-bottom-style: outset;
+  border-right-style: dotted;
+  border-right-style: outset;   
+  
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-right-color: rgb(30, 24, 119);   */
+
+  /* display:inline-flex; */
+  /*  align-items: center;   */
+  /*  justify-content: center; */
+  /* outline: none; */
+  /* padding: 0; */
+}
+
+.key_back,
+.key_enter {
+  width: 200px;
+  height: 100px;
+}
+
+.key_caps,
+.key_shift,
+.key_ok {
+  width: 300px;
+}
+
+.key_space {
+  width: 900px;
+}
